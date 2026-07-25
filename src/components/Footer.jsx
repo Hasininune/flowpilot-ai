@@ -80,7 +80,16 @@ function Footer() {
         © 2026 FlowPilot AI. All rights reserved.
 
       </div>
-
+    <p className="task-credit">
+  Built for{" "}
+  <a
+    href="https://digitalheroesco.com"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    Digital Heroes Training Task
+  </a>
+</p>
     </footer>
   );
 }

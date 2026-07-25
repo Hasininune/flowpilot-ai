@@ -129,5 +129,14 @@ text-align:center;
 justify-content:center;
 
 }
+.task-credit{
+    margin-top:8px;
+    font-size:14px;
+    opacity:.8;
+}
 
+.task-credit a{
+    color:inherit;
+    text-decoration:underline;
+}
 }

@@ -1,18 +1,209 @@
-# React + Vite
+# 🚀 FlowPilot AI
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+FlowPilot AI is a modern SaaS marketing website built using React and Vite. It showcases an AI-powered workflow automation platform with a professional multi-page responsive interface designed using reusable React components.
 
-Currently, two official plugins are available:
+This project was developed as part of the **Digital Heroes Web Development Qualification Task**.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## 🌐 Live Demo
 
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
+https://flowpilot-ai-snowy.vercel.app/
 
-Note: This will impact Vite dev & build performances.
+---
 
-## Expanding the ESLint configuration
+## 💻 GitHub Repository
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+https://github.com/Hasininune/flowpilot-ai
+
+---
+
+# Features
+
+- Responsive Multi-page Website
+- Home Page
+- Product Page
+- Pricing Page
+- Contact Page
+- Reusable React Components
+- Dashboard Preview
+- Interactive Charts (Recharts)
+- Testimonials
+- FAQ Section
+- Call To Action
+- Responsive Navigation
+- Footer
+- Modern SaaS UI
+
+---
+
+# Tech Stack
+
+Frontend
+
+- React.js
+- Vite
+- React Router DOM
+- CSS3
+- Recharts
+- React Icons
+
+Deployment
+
+- Vercel
+
+Version Control
+
+- Git
+- GitHub
+
+---
+
+# Project Structure
+
+```
+src
+│
+├── components
+├── pages
+├── styles
+├── assets
+├── context
+└── App.jsx
+```
+
+---
+
+# SEO Features
+
+- Semantic HTML
+- Open Graph Tags
+- Twitter Cards
+- JSON-LD Structured Data
+- Robots.txt
+- Sitemap.xml
+- Meta Description
+- Canonical URLs
+- Responsive Meta Tags
+
+---
+
+# Accessibility
+
+- Semantic HTML
+- Proper Heading Hierarchy
+- Keyboard Navigation
+- ARIA Labels
+- Accessible Navigation
+- Accessible Footer
+- Screen Reader Friendly Components
+
+---
+
+# Performance
+
+Google Lighthouse
+
+| Metric | Score |
+|---------|--------|
+| Performance | 86 |
+| Accessibility | 98 |
+| Best Practices | 100 |
+| SEO | 100 |
+
+---
+
+# Installation
+
+Clone the repository
+
+```bash
+git clone https://github.com/Hasininune/flowpilot-ai.git
+```
+
+Navigate to the project
+
+```bash
+cd flowpilot-ai
+```
+
+Install dependencies
+
+```bash
+npm install
+```
+
+Run development server
+
+```bash
+npm run dev
+```
+
+Production build
+
+```bash
+npm run build
+```
+
+---
+
+# Screenshots
+
+## Home
+
+(Add Screenshot)
+
+## Product
+
+(Add Screenshot)
+
+## Pricing
+
+(Add Screenshot)
+
+## Contact
+
+(Add Screenshot)
+
+## Lighthouse Report
+
+(Add Screenshot)
+
+---
+
+# AI Usage
+
+AI tools (ChatGPT) were used to:
+
+- Improve semantic HTML
+- Optimize accessibility
+- Enhance SEO
+- Generate structured metadata
+- Review Lighthouse recommendations
+- Improve reusable component architecture
+
+All generated suggestions were reviewed, customized, tested, and integrated manually. The application architecture, UI implementation, and final design decisions were completed and verified by the developer.
+
+---
+
+# Future Improvements
+
+- Dark Mode
+- Authentication
+- Backend Integration
+- Blog Section
+- Analytics Dashboard
+- Email Integration
+- Custom Domain
+
+---
+
+# Author
+
+**Hasini Nune**
+
+GitHub
+
+https://github.com/Hasininune
+
+Built for Digital Heroes Training Task
