@@ -1,25 +1,43 @@
 import { lazy, Suspense } from "react";
 import { Routes, Route } from "react-router-dom";
 
-import Home from "./pages/Home";
-import Pricing from "./pages/Pricing";
-import Contact from "./pages/Contact";
-import Register from "./pages/Register";
-import Dashboard from "./pages/Dashboard";
 import ProtectedRoute from "./components/ProtectedRoute";
-import Login from "./pages/Login";
-import Workflows from "./pages/Workflows";
-import CreateWorkflow from "./pages/CreateWorkflow";
-import Profile from "./pages/Profile";
-import Settings from "./pages/Settings";
-import Billing from "./pages/Billing";
 
-// Lazy load Product
+// Lazy-loaded pages
+const Home = lazy(() => import("./pages/Home"));
 const Product = lazy(() => import("./pages/Product"));
+const Pricing = lazy(() => import("./pages/Pricing"));
+const Contact = lazy(() => import("./pages/Contact"));
+const Register = lazy(() => import("./pages/Register"));
+const Login = lazy(() => import("./pages/Login"));
+
+const Dashboard = lazy(() => import("./pages/Dashboard"));
+const Workflows = lazy(() => import("./pages/Workflows"));
+const CreateWorkflow = lazy(() => import("./pages/CreateWorkflow"));
+const Profile = lazy(() => import("./pages/Profile"));
+const Settings = lazy(() => import("./pages/Settings"));
+const Billing = lazy(() => import("./pages/Billing"));
+
+function Loading() {
+  return (
+    <div
+      style={{
+        minHeight: "100vh",
+        display: "flex",
+        justifyContent: "center",
+        alignItems: "center",
+        fontSize: "18px",
+        fontWeight: "600",
+      }}
+    >
+      Loading...
+    </div>
+  );
+}
 
 function App() {
   return (
-    <Suspense fallback={<div>Loading...</div>}>
+    <Suspense fallback={<Loading />}>
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/product" element={<Product />} />
