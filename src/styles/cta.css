@@ -1,0 +1,115 @@
+.cta{
+
+padding:120px 8%;
+
+background:#f8fafc;
+
+}
+
+.cta-box{
+
+max-width:1000px;
+
+margin:auto;
+
+padding:80px;
+
+text-align:center;
+
+border-radius:30px;
+
+background:linear-gradient(135deg,#2563eb,#38bdf8);
+
+color:white;
+
+box-shadow:0 30px 60px rgba(37,99,235,.25);
+
+}
+
+.cta-box h2{
+
+font-size:48px;
+
+margin-bottom:20px;
+
+}
+
+.cta-box p{
+
+font-size:18px;
+
+line-height:1.8;
+
+max-width:700px;
+
+margin:auto;
+
+margin-bottom:40px;
+
+opacity:.95;
+
+}
+
+.cta-buttons{
+
+display:flex;
+
+justify-content:center;
+
+gap:20px;
+
+}
+
+.cta .primary-btn{
+
+background:white;
+
+color:#2563eb;
+
+}
+
+.cta .secondary-btn{
+
+background:transparent;
+
+border:2px solid white;
+
+color:white;
+
+}
+
+.cta .secondary-btn:hover{
+
+background:white;
+
+color:#2563eb;
+
+}
+
+@media(max-width:768px){
+
+.cta-box{
+
+padding:50px 30px;
+
+}
+
+.cta-box h2{
+
+font-size:34px;
+
+}
+
+.cta-buttons{
+
+flex-direction:column;
+
+}
+
+.cta-buttons button{
+
+width:100%;
+
+}
+
+}

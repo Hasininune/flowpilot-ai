@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <!-- Character Encoding -->
+  <meta charset="UTF-8" />
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+
+  <!-- Responsive -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- SEO -->
+  <title>FlowPilot AI | AI Workflow Automation Platform</title>
+
+  <meta
+    name="description"
+    content="FlowPilot AI is a modern AI-powered workflow automation platform that helps teams automate tasks, manage workflows, track analytics, and improve productivity."
+  />
+
+  <meta
+    name="keywords"
+    content="AI, Workflow Automation, SaaS, React, Dashboard, Productivity, Automation Platform, Artificial Intelligence"
+  />
+
+  <meta name="author" content="Hasini" />
+
+  <meta name="robots" content="index, follow" />
+
+  <meta name="theme-color" content="#2563EB" />
+
+  <!-- Canonical URL -->
+  <link
+    rel="canonical"
+    href="https://your-domain.vercel.app/"
+  />
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website" />
+
+  <meta
+    property="og:title"
+    content="FlowPilot AI | AI Workflow Automation Platform"
+  />
+
+  <meta
+    property="og:description"
+    content="Automate workflows, manage projects, visualize analytics, and improve productivity with FlowPilot AI."
+  />
+
+  <meta
+    property="og:image"
+    content="/og-image.png"
+  />
+
+  <meta
+    property="og:url"
+    content="https://your-domain.vercel.app/"
+  />
+
+  <meta
+    property="og:site_name"
+    content="FlowPilot AI"
+  />
+
+  <!-- Twitter -->
+  <meta
+    name="twitter:card"
+    content="summary_large_image"
+  />
+
+  <meta
+    name="twitter:title"
+    content="FlowPilot AI | AI Workflow Automation Platform"
+  />
+
+  <meta
+    name="twitter:description"
+    content="AI-powered workflow automation platform for smarter teams."
+  />
+
+  <meta
+    name="twitter:image"
+    content="/og-image.png"
+  />
+
+  <!-- Apple -->
+  <meta
+    name="apple-mobile-web-app-capable"
+    content="yes"
+  />
+
+  <meta
+    name="apple-mobile-web-app-status-bar-style"
+    content="default"
+  />
+
+  <meta
+    name="apple-mobile-web-app-title"
+    content="FlowPilot AI"
+  />
+
+  <!-- Structured Data -->
+  <script type="application/ld+json">
+  {
+    "@context":"https://schema.org",
+    "@type":"SoftwareApplication",
+    "name":"FlowPilot AI",
+    "applicationCategory":"BusinessApplication",
+    "operatingSystem":"Web",
+    "description":"FlowPilot AI is an AI-powered workflow automation platform for managing projects, automating tasks, and improving productivity.",
+    "url":"https://your-domain.vercel.app/",
+    "creator":{
+      "@type":"Person",
+      "name":"Hasini"
+    },
+    "offers":{
+      "@type":"Offer",
+      "price":"0",
+      "priceCurrency":"USD"
+    }
+  }
+  </script>
+
+</head>
+
+<body>
+
+  <div id="root"></div>
+
+  <script
+    type="module"
+    src="/src/main.jsx"
+  ></script>
+
+</body>
+</html>
