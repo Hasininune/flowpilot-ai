@@ -18,9 +18,8 @@ function Home() {
       </header>
 
       <main>
-        <FadeIn>
           <Hero />
-        </FadeIn>
+       
 
         <FadeIn>
           <Brands />
